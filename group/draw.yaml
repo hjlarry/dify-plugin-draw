@@ -1,0 +1,17 @@
+settings:
+  - name: model
+    type: model-selector
+    scope: llm
+    required: true
+    label:
+      en_US: Model
+      zh_Hans: 模型
+      pt_BR: Modelo
+    placeholder:
+      en_US: Please select a model
+      zh_Hans: 请选择一个模型
+      pt_BR: Por favor, selecione um modelo
+endpoints:
+  - endpoints/draw.yaml
+  - endpoints/assets.yaml
+  - endpoints/llm.yaml

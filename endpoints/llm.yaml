@@ -1,0 +1,5 @@
+path: "/llm/invoke"
+method: "POST"
+extra:
+  python:
+    source: "endpoints/llm.py"

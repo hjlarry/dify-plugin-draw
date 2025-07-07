@@ -1,0 +1,45 @@
+version: 0.0.1
+type: plugin
+author: hjlarry
+name: draw
+label:
+  en_US: draw
+  ja_JP: draw
+  zh_Hans: draw
+  pt_BR: draw
+description:
+  en_US: let LLM draw your screen
+  ja_JP: let LLM draw your screen
+  zh_Hans: let LLM draw your screen
+  pt_BR: let LLM draw your screen
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission:
+    model:
+      enabled: true
+      llm: true
+      text_embedding: false
+      rerank: false
+      tts: false
+      speech2text: false
+      moderation: false
+    endpoint:
+      enabled: true
+plugins:
+  endpoints:
+    - group/draw.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: null
+created_at: 2025-07-04T22:41:59.700717358+08:00
+privacy: PRIVACY.md
+repo: https://www.github.com
+verified: false
