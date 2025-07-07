@@ -8,10 +8,10 @@ label:
   zh_Hans: draw
   pt_BR: draw
 description:
-  en_US: let LLM draw your screen
-  ja_JP: let LLM draw your screen
-  zh_Hans: let LLM draw your screen
-  pt_BR: let LLM draw your screen
+  en_US: Helps you use LLM to generate mind maps and flowcharts on canvas.
+  ja_JP: LLMを使用してマインドマップやフローチャートを生成することができます。
+  zh_Hans: 使用LLM在画布上生成思维导图和流程图。
+  pt_BR: Permite gerar mapas mentais e fluxogramas usando LLM.
 icon: icon.svg
 resource:
   memory: 268435456
@@ -41,5 +41,5 @@ meta:
   minimum_dify_version: null
 created_at: 2025-07-04T22:41:59.700717358+08:00
 privacy: PRIVACY.md
-repo: https://www.github.com
+repo: https://github.com/hjlarry/dify-plugin-draw
 verified: false
